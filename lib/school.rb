@@ -22,6 +22,5 @@ class School
     new_roster = roster.sort.to_h
     new_roster.each {|key, value| value.sort!}
     new_roster
-
   end
 end
